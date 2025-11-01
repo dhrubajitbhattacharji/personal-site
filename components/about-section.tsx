@@ -39,7 +39,7 @@ export function AboutSection() {
                   Currently, I'm exploring scalable solutions in DocumentAI at <a href="https://www.kriyam.ai/" target="blank"><span className="text-purple-400">Kriyam.ai ↗</span></a>{" "}
                   where I get to work on real world problems involving complex documents and understanding them. I'm a part of the founding{" "}<a href="https://labs.kriyam.ai" target="blank"><span className="text-purple-400">R&D team ↗</span></a>{" "}where we built the first prototype of{" "}<a href="https://docwise.kriyam.ai/"><span className="text-purple-400">Docwise ↗</span></a>
                     {" "}specially made for Indian Documents and supports 12+ regional languages, tables, forms and handwritten notes.
-                    <span className=""><br/>{" "}Check out: <a href="https://www.kriyam.ai/" target="blank"><span className="text-purple-400">https://github.com/dhrubajitbhattacharji/document-AI</span></a></span>
+                    <span className=""><br/>{" "}Check out: <a href="https://github.com/dhrubajitbhattacharji/document-AI" target="blank"><span className="text-purple-400">github/documentAI</span></a></span>
                 </p>
 
               </div>

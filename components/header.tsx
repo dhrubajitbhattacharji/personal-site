@@ -124,25 +124,28 @@ export function Header() {
             {/* <Link href="#" className="block text-gray-300 hover:text-white transition-colors py-2">
               projects
             </Link> */}
-            <Link href="#" className="block text-orange-400 hover:text-white transition-colors py-2">
+            {/* <Link href="#" className="block text-orange-400 hover:text-white transition-colors py-2">
               literature
             </Link>
             <Link href="#" className="block text-orange-400 hover:text-orange-300 transition-colors py-2">
               links
-            </Link>
+            </Link> */}
             <div className="flex items-center space-x-2 pt-2 border-t border-white/10">
-              <Button variant="ghost" size="sm" className="text-gray-300 hover:text-white hover:bg-white/10 p-2">
-                <ExternalLink className="h-4 w-4" />
-              </Button>
+             <Link href={"https://www.github.com/dhrubajitbhattacharji"}>
               <Button variant="ghost" size="sm" className="text-gray-300 hover:text-white hover:bg-white/10 p-2">
                 <Github className="h-4 w-4" />
               </Button>
+              </Link>
+              <Link href={"https://x.com/dhruxv1"}>
               <Button variant="ghost" size="sm" className="text-gray-300 hover:text-white hover:bg-white/10 p-2">
                 <Twitter className="h-4 w-4" />
               </Button>
+              </Link>
+              <Link href={"https://www.linkedin.com/in/dhrubajitbhattacharjee/"}>
               <Button variant="ghost" size="sm" className="text-gray-300 hover:text-white hover:bg-white/10 p-2">
-                <Instagram className="h-4 w-4" />
+                <Linkedin className="h-4 w-4" />
               </Button>
+              </Link>
             </div>
           </div>
         </div>

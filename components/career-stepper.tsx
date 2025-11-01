@@ -60,7 +60,7 @@ export function CareerStepper() {
         </div>
 
         <div className="relative">
-          <div className="absolute left-8 top-0 bottom-0 w-0.5 bg-gradient-to-b from-purple-500 via-pink-500 to-cyan-400 opacity-30" />
+          <div className="absolute sm:left-8 left-4 top-0 bottom-0 w-0.5 bg-gradient-to-b from-purple-500 via-pink-500 to-cyan-400 opacity-30" />
           <div className="space-y-12">
             {careerSteps.map((step, index) => (
               <div key={step.id} className="relative flex items-start gap-8">
