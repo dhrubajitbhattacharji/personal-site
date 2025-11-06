@@ -34,10 +34,10 @@ export function FeaturedProjects() {
   return (
     <section className="max-w-6xl mx-auto px-4 sm:px-6 py-8 sm:py-16">
       <div className="flex flex-col sm:flex-row items-start sm:items-center justify-between mb-8 sm:mb-12 space-y-4 sm:space-y-0">
-        <h2 className="text-xs sm:text-sm font-medium text-gray-400 uppercase tracking-wider">Works</h2>
+        {/* <h2 className="text-xs sm:text-sm font-medium text-gray-400 uppercase tracking-wider">Works</h2> */}
         <Link target="blank" href={"https://github.com/dhrubajitbhattacharji"}> 
         <Button variant="link" className="text-blue-400 hover:text-blue-300 text-sm sm:text-base p-0 h-auto cursor-pointer">
-          All Works 
+          see all
           <ArrowUpRight className={`h-4 w-4 sm:h-5 sm:w-5 group-hover:opacity-100 transition-opacity`}/>
         </Button>
         </Link>

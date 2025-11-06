@@ -12,7 +12,7 @@ export function Hero() {
     <section className="max-w-4xl mx-auto px-4 sm:px-6 py-8 sm:py-16">
       <div className="flex flex-col items-center text-center space-y-6 sm:space-y-8">
         <div className="relative">
-          <div className="w-40 h-40 sm:w-24 sm:h-24 rounded-full bg-gradient-to-br from-purple-500 to-pink-600 flex items-center justify-center shadow-lg shadow-purple-500/25">
+          <div className="w-40 h-40 sm:w-24 sm:h-24 rounded-full bg-gradient-to-br from-purple-800 to-pink-700 flex items-center justify-center shadow-lg shadow-purple-500/25">
             <img
               src="/profile2.png"
               alt="Profile picture"
@@ -39,9 +39,9 @@ export function Hero() {
             solutions.
           </p>
 
-          <div className="flex flex-col sm:flex-row items-center justify-center space-y-1 sm:space-y-0 sm:space-x-2 text-gray-300 text-sm sm:text-base">
+          <div className="flex flex-col sm:flex-row items-center justify-center space-y-1 sm:space-y-0 sm:space-x-2 text-gray-300 text-xs sm:text-base">
             <span>Building the</span>
-            <span className="bg-gradient-to-r from-purple-400 via-pink-500 to-cyan-400 bg-clip-text text-transparent font-medium">
+            <span className="bg-gradient-to-r from-purple-400 via-pink-500 to-cyan-400 bg-clip-text text-transparent">
               next-gen documentAI
             </span>
           </div>
