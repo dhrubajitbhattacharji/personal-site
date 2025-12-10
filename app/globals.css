@@ -123,3 +123,7 @@
     @apply bg-background text-foreground;
   }
 }
+
+.font-anon {
+  font-family: var(--font-anonymous-pro), monospace;
+}

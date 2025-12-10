@@ -32,8 +32,8 @@ export function Hero() {
             Dhruv
           </h1> */}
 
-          <h2 className="text-gray-300 text-2xl sm:text-2xl">
-            Dhrubajit Bhattacharjee 🇮🇳
+          <h2 className="font-anon font-bold text-gray-300 text-2xl sm:text-2xl">
+            Dhrubajit Bhattacharjee
           </h2>
         </div>
 
