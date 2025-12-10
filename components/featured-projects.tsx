@@ -33,7 +33,7 @@ const projects = [
 export function FeaturedProjects() {
   return (
     <section className="max-w-6xl mx-auto px-4 sm:px-6 py-8 sm:py-16">
-      <div className="flex flex-col sm:flex-row items-start sm:items-center justify-between mb-8 sm:mb-12 space-y-4 sm:space-y-0">
+      <div className="flex flex-col sm:flex-row items-start sm:items-center justify-between mb-5 sm:mb-6 space-y-4 sm:space-y-0">
         {/* <h2 className="text-xs sm:text-sm font-medium text-gray-400 uppercase tracking-wider">Works</h2> */}
         <Link target="blank" href={"https://github.com/dhrubajitbhattacharji"}> 
         <Button variant="link" className="text-blue-400 hover:text-blue-300 text-sm sm:text-base p-0 h-auto cursor-pointer">
@@ -43,7 +43,7 @@ export function FeaturedProjects() {
         </Link>
       </div>
 
-      <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4 sm:gap-6">
+      <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3  gap-4 sm:gap-6">
         {projects.map((project) => (
           <Link target="blank" href={project.url}>
           <Card
@@ -78,6 +78,7 @@ export function FeaturedProjects() {
           </Link>
         ))}
       </div>
+      
     </section>
   )
 }

@@ -7,6 +7,12 @@ import { SiTensorflow } from "react-icons/si";
 // import { SiHuggingface } from "react-icons/si";
 import { SiTypescript } from "react-icons/si";
 
+import Link from "next/link"
+import { usePathname } from "next/navigation"
+import { Button } from "@/components/ui/button"
+import { ExternalLink, Github, Twitter, Instagram, Menu, Linkedin } from "lucide-react"
+
+
 export function Hero() {
   return (
     <section className="max-w-4xl mx-auto px-4 sm:px-6 py-8 sm:py-16">
@@ -27,27 +33,39 @@ export function Hero() {
           </h1> */}
 
           <h2 className="text-gray-300 text-2xl sm:text-2xl">
-            Dhrubajit Bhattacharjee
+            Dhrubajit Bhattacharjee 🇮🇳
           </h2>
         </div>
 
         <div className="max-w-2xl space-y-4">
           <p className="text-gray-200 text-base sm:text-lg leading-relaxed px-4 sm:px-0">
-            Engineering intelligence into reality, I bridge research and
-            production—building solutions powered by llms, vision-language
-            models and agentic pipelines that turn cutting-edge AI into everyday
-            solutions.
+            Hi 👋 I'm a software engineer working with machine learning and AI. I work at <span className="underline"><a target="_blank" href="https://www.kriyam.ai">kriyam.ai</a></span> where I mostly do backend development for ML applications and setup pipelines to deploy and train the models. Currently exploring agentic AI. <br/>Check out my <span className="underline"><a href="https://www.linkedin.com/in/dhrubajitbhattacharjee">linkedin</a></span> and <span className="underline"><a href="https://www.github.com/dhrubajitbhattacharji">github</a></span> for more info 
           </p>
+<div className="sm:flex justify-center items-center">
+            <Link href="https://github.com/dhrubajitbhattacharji" target="blank">
+            <Button variant="ghost" size="sm" className="text-gray-300 hover:text-white hover:bg-white/10 p-2">
+              <Github className="h-4 w-4" />
+            </Button>
+            
+            </Link>
+            <Link href="https://x.com/dhruxv1" target="blank">
 
-          <div className="flex flex-col sm:flex-row items-center justify-center space-y-1 sm:space-y-0 sm:space-x-2 text-gray-300 text-xs sm:text-base">
-            <span>Building the</span>
-            <span className="bg-gradient-to-r from-purple-400 via-pink-500 to-cyan-400 bg-clip-text text-transparent">
-              next-gen documentAI
-            </span>
+            <Button variant="ghost" size="sm" className="text-gray-300 hover:text-white hover:bg-white/10 p-2">
+              <Twitter className="h-4 w-4" />
+            </Button>
+            </Link>
+
+            <Link href="https://www.linkedin.com/in/dhrubajitbhattacharjee/" target="blank">
+
+            <Button variant="ghost" size="sm" className="text-gray-300 hover:text-white hover:bg-white/10 p-2">
+              <Linkedin className="h-4 w-4" />
+            </Button>
+            </Link>
+
           </div>
         </div>
 
-        <div className="flex flex-wrap items-center justify-center gap-4 sm:gap-6 lg:gap-8 opacity-60 pt-6 sm:pt-8 px-4">
+        <div className="flex flex-wrap items-center justify-center gap-4 sm:gap-6 lg:gap-8 opacity-60 pt-4 sm:pt-8 px-4">
           <div className="w-8 h-8 sm:w-10 sm:h-10">
             <FaPython className="w-10 h-10" />
           </div>
