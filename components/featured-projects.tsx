@@ -8,24 +8,24 @@ const projects = [
     id: "01",
     title: "Latest Works on Document AI",
     description: "Finetuned models, Document Data Prep and Training, AI document pipelines etc",
-    color: "bg-gradient-to-br from-yellow-400 to-orange-500",
-    textColor: "text-gray-900",
+    // color: "bg-gradient-to-br from-yellow-300 to-orange-300",
+    textColor: "text-[#c76ed7]",
     url: "https://github.com/dhrubajitbhattacharji/document-AI"
   },
   {
     id: "02",
     title: "Layout-qa",
     description: "Vision Guided chunking and qa from documents",
-    color: "bg-gradient-to-br from-blue-600 to-purple-700",
-    textColor: "text-white",
+    // color: "bg-gradient-to-br from-blue-600 to-purple-700",
+    textColor: "text-[#c76ed7]",
     url: "https://github.com/dhrubajitbhattacharji/Layout-qa"
   },
   {
     id: "03",
     title: "Document Verification Agent",
     description: "document verification, analysis and fills up forms",
-    color: "bg-gradient-to-br from-amber-600 to-orange-700",
-    textColor: "text-white",
+    // color: "bg-gradient-to-br from-amber-600 to-orange-700",
+    textColor: "text-[#c76ed7]",
     url: "https://github.com/dhrubajitbhattacharji/BGV-Agent"
   },
 ]
@@ -36,7 +36,7 @@ export function FeaturedProjects() {
       <div className="flex flex-col sm:flex-row items-start sm:items-center justify-between mb-5 sm:mb-6 space-y-4 sm:space-y-0">
         {/* <h2 className="text-xs sm:text-sm font-medium text-gray-400 uppercase tracking-wider">Works</h2> */}
         <Link target="blank" href={"https://github.com/dhrubajitbhattacharji"}> 
-        <Button variant="link" className="text-blue-400 hover:text-blue-300 text-sm sm:text-base p-0 h-auto cursor-pointer">
+        <Button variant="link" className="text-[#c76ed7] text-sm sm:text-base p-0 h-auto cursor-pointer">
           see all
           <ArrowUpRight className={`h-4 w-4 sm:h-5 sm:w-5 group-hover:opacity-100 transition-opacity`}/>
         </Button>
@@ -52,7 +52,7 @@ export function FeaturedProjects() {
           >
             <CardContent className="p-0">
               <div
-                className={`${project.color} h-40 sm:h-48 rounded-t-lg flex items-center justify-center relative overflow-hidden`}
+                className={`h-40 sm:h-48 rounded-t-lg flex items-center justify-center relative overflow-hidden`}
               >
                 <div className="absolute top-3 sm:top-4 left-3 sm:left-4">
                   <span className={`text-xs font-medium ${project.textColor} opacity-70`}>{project.id}</span>

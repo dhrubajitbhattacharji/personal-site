@@ -122,6 +122,9 @@
   body {
     @apply bg-background text-foreground;
   }
+  a {
+    @apply text-[#c76ed7]; /* Sets default link color and underline */
+  }
 }
 
 .font-anon {
