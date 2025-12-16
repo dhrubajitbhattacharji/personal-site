@@ -7,11 +7,17 @@ import { SiTensorflow } from "react-icons/si";
 // import { SiHuggingface } from "react-icons/si";
 import { SiTypescript } from "react-icons/si";
 
-import Link from "next/link"
-import { usePathname } from "next/navigation"
-import { Button } from "@/components/ui/button"
-import { ExternalLink, Github, Twitter, Instagram, Menu, Linkedin } from "lucide-react"
-
+import Link from "next/link";
+import { usePathname } from "next/navigation";
+import { Button } from "@/components/ui/button";
+import {
+  ExternalLink,
+  Github,
+  Twitter,
+  Instagram,
+  Menu,
+  Linkedin,
+} from "lucide-react";
 
 export function Hero() {
   return (
@@ -39,29 +45,66 @@ export function Hero() {
 
         <div className="max-w-2xl space-y-4">
           <p className="text-gray-200 text-base  sm:text-lg leading-relaxed px-4 sm:px-0">
-            Hi 👋 I'm a software engineer working with machine learning and AI. I work at <span className="text-[#c76ed7] underline"><a target="_blank" href="https://www.kriyam.ai">kriyam.ai</a></span> where I mostly do backend development for ML applications and setup pipelines to deploy and train the models. Currently exploring agentic AI. <br/>Check out my <span className="text-purple-400 underline"><a target="_blank"  href="https://www.linkedin.com/in/dhrubajitbhattacharjee">linkedin</a></span> and <span className="text-purple-400 underline"><a target="_blank" href="https://www.github.com/dhrubajitbhattacharji">github</a></span> for more info 
+            Hi 👋 I'm a software engineer working with machine learning and AI.
+            I work end to end on ML systems—research, modeling, deployment.
+            Currently experimenting with agentic AI to make machines read
+            documents like engineers do. <br />
+            MLE at <span className="text-[#c76ed7] underline"><a target="_blank" href="https://studio.kriyam.ai/app">kriyam.ai</a></span><br />
+            Check out my{" "}
+            <span className="text-purple-400 underline">
+              <a
+                target="_blank"
+                href="https://www.linkedin.com/in/dhrubajitbhattacharjee"
+              >
+                linkedin
+              </a>
+            </span>{" "}
+            and{" "}
+            <span className="text-purple-400 underline">
+              <a
+                target="_blank"
+                href="https://www.github.com/dhrubajitbhattacharji"
+              >
+                github
+              </a>
+            </span>{" "}
+            for more info
           </p>
-<div className="sm:flex justify-center items-center">
-            <Link href="https://github.com/dhrubajitbhattacharji" target="blank">
-            <Button variant="ghost" size="sm" className="text-gray-300 hover:text-white hover:bg-white/10 p-2">
-              <Github className="h-4 w-4" />
-            </Button>
-            
+          <div className="sm:flex justify-center items-center">
+            <Link
+              href="https://github.com/dhrubajitbhattacharji"
+              target="blank"
+            >
+              <Button
+                variant="ghost"
+                size="sm"
+                className="text-gray-300 hover:text-white hover:bg-white/10 p-2"
+              >
+                <Github className="h-4 w-4" />
+              </Button>
             </Link>
             <Link href="https://x.com/dhruxv1" target="blank">
-
-            <Button variant="ghost" size="sm" className="text-gray-300 hover:text-white hover:bg-white/10 p-2">
-              <Twitter className="h-4 w-4" />
-            </Button>
+              <Button
+                variant="ghost"
+                size="sm"
+                className="text-gray-300 hover:text-white hover:bg-white/10 p-2"
+              >
+                <Twitter className="h-4 w-4" />
+              </Button>
             </Link>
 
-            <Link href="https://www.linkedin.com/in/dhrubajitbhattacharjee/" target="blank">
-
-            <Button variant="ghost" size="sm" className="text-gray-300 hover:text-white hover:bg-white/10 p-2">
-              <Linkedin className="h-4 w-4" />
-            </Button>
+            <Link
+              href="https://www.linkedin.com/in/dhrubajitbhattacharjee/"
+              target="blank"
+            >
+              <Button
+                variant="ghost"
+                size="sm"
+                className="text-gray-300 hover:text-white hover:bg-white/10 p-2"
+              >
+                <Linkedin className="h-4 w-4" />
+              </Button>
             </Link>
-
           </div>
         </div>
 
